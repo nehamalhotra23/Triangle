@@ -15,7 +15,6 @@
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Triangle.TagHelpers.output.cache
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Triangle.RazorCoreGenerate.cache
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Razor/Views/Home/Triangle.g.cshtml.cs
-/Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Razor/Views/Home/TriangleForm.g.cshtml.cs
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Triangle.RazorTargetAssemblyInfo.cache
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Triangle.RazorTargetAssemblyInfo.cs
 /Users/Guest/Desktop/Triangle.Solution/Triangle/obj/Debug/netcoreapp2.2/Triangle.Views.pdb

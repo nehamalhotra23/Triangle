@@ -9,7 +9,7 @@
         <h1 class="text-primary">Triangle Tacker</h1>
     </div>
      
-    <form action="/#result" method="post" class="form-group">
+    <form action="/result" method="post" class="form-group">
         <label for="sideOne">enter Side One</label>
         <input id="sideOne" name="sideOne" type="text" class="form-control">
         <br>
@@ -22,9 +22,15 @@
         <button type="submit">Go!</button>
     </form>
     <div id="result">
-
-    </div> 
-
-    
+        @if (@Model == null )
+        {
+            <p>does not exists</p>
+        }
+        else
+        {
+            <p>exists</p>
+            @Model.Type;
+        }
+    </div>
   </body>
 </html>

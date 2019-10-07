@@ -12,13 +12,11 @@ namespace Triangle.Controllers
         return View();        
     }
 
-    [Route("/#result")]
-    public ActionResult Triangle()
+    [Route("/result")]
+    public ActionResult TriangleResult(int sideOne, int sideTwo, int sideThree)
     {
-
-    return View();  
-
+        TriangleVariable newTriangle = new TriangleVariable(sideOne, sideTwo, sideThree);
+        return View("Triangle", newTriangle);  
     }
-    //TriangleVariable newTriangle = new TriangleVariable(sideOne, sideTwo, sideThree);
   }
 }
